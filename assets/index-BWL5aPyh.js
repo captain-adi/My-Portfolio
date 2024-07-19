@@ -272,7 +272,7 @@ margin-right: 5rem;
     border-radius: 4px;
     background-color: #d8cfcf;
     resize: none;
-    background-image: url("../Image/Group 62.png");
+    background-image: url("./Image/Group 62.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -361,7 +361,7 @@ margin-right: 5rem;
       font-size: 0.7rem;
     }
   }
-`;function hy(){const[e,t]=Ie.useState("hobby");return v.jsx(v.Fragment,{children:v.jsx(my,{id:"about",children:v.jsxs(vy,{children:[v.jsx("img",{src:"/Image/myImage.jpg",alt:"","data-aos":"fade-right"}),v.jsxs(gy,{"data-aos":"fade-left",children:[v.jsx("h1",{children:"About Me"}),v.jsx("p",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat blanditiis aliquid, mollitia soluta eaque nostrum sunt quas cum quod nam delectus repellat dolorum rerum, quasi repellendus unde? Esse excepturi tempore earum tenetur a libero ipsum distinctio aspernatur doloremque quisquam ex saepe odit ipsam cum possimus harum voluptas impedit, reiciendis officiis."}),v.jsxs("ul",{className:"section",children:[v.jsx("li",{onClick:()=>t("hobby"),children:"Hobby"}),v.jsx("li",{onClick:()=>t("education"),children:"Education"}),v.jsx("li",{onClick:()=>t("other"),children:"Other"})]}),e==="hobby"?v.jsx(yy,{children:v.jsxs("ul",{className:"list",children:[v.jsx("li",{className:"list-items",children:"Coading"}),v.jsx("li",{className:"list-items",children:"Cricket"}),v.jsx("li",{className:"list-items",children:"Playing Online Games"}),v.jsx("li",{className:"list-items",children:"Going GYM"})]})}):e==="education"?v.jsx(wy,{children:v.jsxs("ul",{className:"list",children:[v.jsx("li",{className:"list-items",children:"1"}),v.jsx("li",{className:"list-items",children:"2"}),v.jsx("li",{className:"list-items",children:"3 "}),v.jsx("li",{className:"list-items",children:"4 "})]})}):v.jsx(Sy,{children:v.jsxs("ul",{className:"list",children:[v.jsx("li",{className:"list-items",children:" other 1"}),v.jsx("li",{className:"list-items",children:" other 2"}),v.jsx("li",{className:"list-items",children:" other 3 "}),v.jsx("li",{className:"list-items",children:" other 4 "})]})})]})]})})})}const my=B.div`
+`;function hy(){const[e,t]=Ie.useState("hobby");return v.jsx(v.Fragment,{children:v.jsx(my,{id:"about",children:v.jsxs(vy,{children:[v.jsx("img",{src:"./Image/myImage.jpg",alt:"","data-aos":"fade-right"}),v.jsxs(gy,{"data-aos":"fade-left",children:[v.jsx("h1",{children:"About Me"}),v.jsx("p",{children:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat blanditiis aliquid, mollitia soluta eaque nostrum sunt quas cum quod nam delectus repellat dolorum rerum, quasi repellendus unde? Esse excepturi tempore earum tenetur a libero ipsum distinctio aspernatur doloremque quisquam ex saepe odit ipsam cum possimus harum voluptas impedit, reiciendis officiis."}),v.jsxs("ul",{className:"section",children:[v.jsx("li",{onClick:()=>t("hobby"),children:"Hobby"}),v.jsx("li",{onClick:()=>t("education"),children:"Education"}),v.jsx("li",{onClick:()=>t("other"),children:"Other"})]}),e==="hobby"?v.jsx(yy,{children:v.jsxs("ul",{className:"list",children:[v.jsx("li",{className:"list-items",children:"Coading"}),v.jsx("li",{className:"list-items",children:"Cricket"}),v.jsx("li",{className:"list-items",children:"Playing Online Games"}),v.jsx("li",{className:"list-items",children:"Going GYM"})]})}):e==="education"?v.jsx(wy,{children:v.jsxs("ul",{className:"list",children:[v.jsx("li",{className:"list-items",children:"1"}),v.jsx("li",{className:"list-items",children:"2"}),v.jsx("li",{className:"list-items",children:"3 "}),v.jsx("li",{className:"list-items",children:"4 "})]})}):v.jsx(Sy,{children:v.jsxs("ul",{className:"list",children:[v.jsx("li",{className:"list-items",children:" other 1"}),v.jsx("li",{className:"list-items",children:" other 2"}),v.jsx("li",{className:"list-items",children:" other 3 "}),v.jsx("li",{className:"list-items",children:" other 4 "})]})})]})]})})})}const my=B.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -474,7 +474,7 @@ margin-right: 5rem;
   }
 `,Vc=B.div`
   border: 1px solid rgba(72, 72, 72, 1);
-  background-image: url("../Image/background.jpg");
+  background-image: url("./Image/background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
