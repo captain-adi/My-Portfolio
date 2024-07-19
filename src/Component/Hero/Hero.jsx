@@ -68,7 +68,7 @@ export function Hero() {
 
           <img
             data-aos="fade-left"
-            src="/Image/myImage.jpg"
+            src="./Image/myImage.jpg"
             alt=""
             className="aspect-square
             w-1/3 rounded-full mt-24 border-4 border-solid"
