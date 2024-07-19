@@ -167,7 +167,7 @@ const RightSide = styled.div`
     border-radius: 4px;
     background-color: #d8cfcf;
     resize: none;
-    background-image: url("../Image/Group 62.png");
+    background-image: url("./Image/Group 62.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

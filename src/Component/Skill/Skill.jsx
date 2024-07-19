@@ -73,7 +73,7 @@ const CardContainer = styled.div`
 
 const SkillCard = styled.div`
   border: 1px solid rgba(72, 72, 72, 1);
-  background-image: url("../Image/background.jpg");
+  background-image: url("./Image/background.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
