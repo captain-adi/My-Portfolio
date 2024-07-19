@@ -42,7 +42,7 @@ function Contact() {
               <FormInput type="text" name="" id="" />
             </div>
             <div className=" relative w-full">
-              <label htmlFor="" className=" absolute  mt-[-0.7rem] ml-2 bg-black pl-2 pr-2">Your Name</label>
+              <label htmlFor="" className=" absolute  mt-[-0.7rem] ml-2 bg-black pl-2 pr-2">Your Mail</label>
               <FormInput type="text" name="" id="" />
             </div>
         
