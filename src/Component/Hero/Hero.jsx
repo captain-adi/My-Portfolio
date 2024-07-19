@@ -83,7 +83,7 @@ export function Hero() {
 
 const HeroContainer = styled.div`
   @media screen and (max-width: 900px) {
-    height: fit-content;
+    height: 80vh;
   }
 `;
 const About = styled.div`
