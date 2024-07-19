@@ -107,7 +107,7 @@ margin-right: 5rem;
 `;function ey(){return v.jsx(v.Fragment,{children:v.jsxs(ty,{className:" h-screen ",children:[v.jsx(Yg,{}),v.jsxs(ry,{children:[v.jsxs(ny,{"data-aos":"fade-right",children:[v.jsxs("h1",{className:" text-6xl mb-0 ",children:["Hii , My self ",v.jsx("span",{children:"Aditya"})]}),v.jsxs("h2",{id:"h2",className:"mb-0 ",children:["And i'm"," ",v.jsx("span",{className:"typedeffect text-4xl",children:v.jsx(bp,{className:"  xs:text-yellow-400",words:["Web Developer","Coader","Frontend Developer"],loop:!1,cursor:!0,cursorStyle:"",typeSpeed:70,deleteSpeed:50,delaySpeed:1e3})})]}),v.jsxs("p",{className:"text-sm  mb-9",children:["Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus distinctio tempore repellat est delectus quam quia quae, laborum qui vitae a suscipit? Ius"," "]}),v.jsx("a",{href:"Interview.pdf",download:"Interview question.pdf",className:" no-underline",children:v.jsxs(eh,{children:[v.jsx(qg,{}),"My Resume"]})})]}),v.jsx("img",{"data-aos":"fade-left",src:"./Image/myImage.jpg",alt:"",className:`aspect-square
             w-1/3 rounded-full mt-24 border-4 border-solid`})]})]})})}const ty=B.div`
   @media screen and (max-width: 900px) {
-    height: fit-content;
+    height: 80vh;
   }
 `,ny=B.div`
   width: 50%;
