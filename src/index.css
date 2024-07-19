@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --theme:red;
+    --text-color:white;
+    --bg-color: black;
+    --box-shadow: rgba(var(--theme), 0.25) 0px 54px 55px, 
+                  rgba(var(--theme), 0.12) 0px -12px 30px, 
+                  rgba(var(--theme), 0.12) 0px 4px 6px, 
+                  rgba(var(--theme), 0.17) 0px 12px 13px, 
+                  rgba(var(--theme), 0.09) 0px -3px 5px;
+}
+body{
+    color:white;
+    margin:0px ;
+    padding:0px;
+    background-color: var(--bg-color);
+}
