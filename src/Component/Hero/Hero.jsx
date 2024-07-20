@@ -55,7 +55,7 @@ export function Hero() {
               quae, laborum qui vitae a suscipit? Ius{" "}
             </p>
             <a
-              href="Interview.pdf"
+              // href="Interview.pdf"
               download="Interview question.pdf"
               className=" no-underline"
             >
@@ -68,7 +68,7 @@ export function Hero() {
 
           <img
             data-aos="fade-left"
-            src="./Image/myImage.jpg"
+            src="./Image/download.jpg"
             alt=""
             className="aspect-square
             w-1/3 rounded-full mt-24 border-4 border-solid"

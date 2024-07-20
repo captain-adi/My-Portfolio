@@ -8,7 +8,7 @@ function About() {
     <>
       <AboutContainer id="about">
         <AboutWrapper>
-          <img src="./Image/myImage.jpg" alt="" data-aos="fade-right" />
+          <img src="./Image/download.jpg" alt="" data-aos="fade-right" />
           <AboutPart data-aos="fade-left">
             <h1>About Me</h1>
             <p>

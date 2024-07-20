@@ -23,7 +23,7 @@ function Contact() {
             </p>
             <div className="contact">
               <span>
-                <IoMdMail /> Adity@mail.com
+                <IoMdMail /> Aditya@mail.com
               </span>
               <span>
                 {" "}
@@ -38,12 +38,12 @@ function Contact() {
           </LeftSide>
           <RightSide data-aos="fade-left">
             <div className=" relative w-full">
-              <label htmlFor="" className=" absolute  mt-[-0.7rem] ml-2 bg-black pl-2 pr-2">Your Name</label>
-              <FormInput type="text" name="" id="" />
+              <label htmlFor="name" className=" absolute  mt-[-0.7rem] ml-2 bg-black pl-2 pr-2">Your Name</label>
+              <FormInput type="text" name="name" id="" />
             </div>
             <div className=" relative w-full">
-              <label htmlFor="" className=" absolute  mt-[-0.7rem] ml-2 bg-black pl-2 pr-2">Your Mail</label>
-              <FormInput type="text" name="" id="" />
+              <label htmlFor="mail" className=" absolute  mt-[-0.7rem] ml-2 bg-black pl-2 pr-2">Your Mail</label>
+              <FormInput type="text" name="mail" id="" />
             </div>
         
             <textarea name="" id=""></textarea>
@@ -58,7 +58,7 @@ function Contact() {
 export default Contact;
 
 const ContactContainer = styled.div`
-  font-family: "Mali", cursive;
+ 
   font-weight: 100;
   height: 100%;
   display: flex;
@@ -150,14 +150,7 @@ const RightSide = styled.div`
   justify-content: space-evenly;
   gap: 2rem;
 
-  /* input {
-    padding: 13px 0px;
-    width: 100%;
-    border-radius: 3px;
-    border: 1px solid rgba(72, 72, 72, 1);
-    color: var(--textcolor);
-    background-color: #000000;
-  } */
+ 
   textarea {
     width: 100%;
     height: 190px;
@@ -180,11 +173,18 @@ const RightSide = styled.div`
   }
 `;
 
-const FormInput = styled.div`
+const FormInput = styled.input`
   padding: 1.4rem 0px;
   width: 100%;
   border-radius: 3px;
   border: 1px solid rgba(72, 72, 72, 1);
   color: var(--textcolor);
   background-color: #000000;
+
+  @media screen and (max-width: 900px) {
+    label{
+      color: red;
+    }
+   
+  }
 `;
