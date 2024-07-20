@@ -36,8 +36,8 @@ function About() {
                 <ul className="list">
                   <li className="list-items">10th and 12th From Ratnpur </li>
                   <li className="list-items">BCA From Dr. E Raghvendra Rao</li>
-                  {/* <li className="list-items">3 </li>
-                  <li className="list-items">4 </li> */}
+                  <li className="list-items"> </li>
+                  <li className="list-items"> </li>
                 </ul>
               </Education>
             ) : (
@@ -45,6 +45,8 @@ function About() {
                 <ul className="list">
                   <li className="list-items">  Age - 22 </li>
                   <li className="list-items"> Location - Bilaspur Chhattisgarh</li>
+                  <li className="list-items"> </li>
+                  <li className="list-items"> </li>
                 </ul>
               </Other>
             )}
