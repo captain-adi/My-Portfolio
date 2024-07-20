@@ -81,7 +81,6 @@ export default Navbar;
 
 const Nav = styled.nav`
   width:100%;
-  border: 3px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
