@@ -65,6 +65,7 @@ function About() {
 export default About;
 
 const AboutContainer = styled.div`
+border: 3px solid wheat;
   display: flex;
   justify-content: center;
   align-items: center;

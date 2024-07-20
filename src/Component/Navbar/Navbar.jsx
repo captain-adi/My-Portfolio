@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <>
       <header>
-        <nav className=" w-11/12  m-auto flex justify-between items-center text-white  ">
+        <Nav className="  ">
           <Name className=" text-3xl font-semibold ">Aditya</Name>
           <Navitems>
             <Link
@@ -71,13 +71,21 @@ function Navbar() {
               <li className="list-none  cursor-pointer "> Contact</li>
             </Link>
           </Navitems>
-        </nav>
+        </Nav>
       </header>
     </>
   );
 }
 
 export default Navbar;
+
+const Nav = styled.nav`
+  width:100%;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
 
 const Name = styled.h1`
 margin-right: 5rem;
