@@ -12,12 +12,7 @@ function About() {
           <AboutPart data-aos="fade-left">
             <h1>About Me</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-              blanditiis aliquid, mollitia soluta eaque nostrum sunt quas cum
-              quod nam delectus repellat dolorum rerum, quasi repellendus unde?
-              Esse excepturi tempore earum tenetur a libero ipsum distinctio
-              aspernatur doloremque quisquam ex saepe odit ipsam cum possimus
-              harum voluptas impedit, reiciendis officiis.
+            As a Frontend Developer, I specialize in creating the visual and interactive elements of websites and web applications. I ensure a seamless and responsive user experience across various devices and browsers by building user interfaces. I collaborate with designers and backend developers to implement designs and integrate server-side logic. My focus is on performance optimization, accessibility, and maintaining clean, efficient code.
             </p>
 
             
@@ -30,7 +25,7 @@ function About() {
             {activeSection === "hobby" ? (
               <Hobby>
                 <ul className="list">
-                  <li className="list-items">Coading</li>
+                  <li className="list-items">Coding</li>
                   <li className="list-items">Cricket</li>
                   <li className="list-items">Playing Online Games</li>
                   <li className="list-items">Going GYM</li>
@@ -39,19 +34,17 @@ function About() {
             ) : activeSection === "education" ? (
               <Education>
                 <ul className="list">
-                  <li className="list-items">1</li>
-                  <li className="list-items">2</li>
-                  <li className="list-items">3 </li>
-                  <li className="list-items">4 </li>
+                  <li className="list-items">10th and 12th From Ratnpur </li>
+                  <li className="list-items">BCA From Dr. E Raghvendra Rao</li>
+                  {/* <li className="list-items">3 </li>
+                  <li className="list-items">4 </li> */}
                 </ul>
               </Education>
             ) : (
               <Other>
                 <ul className="list">
-                  <li className="list-items"> other 1</li>
-                  <li className="list-items"> other 2</li>
-                  <li className="list-items"> other 3 </li>
-                  <li className="list-items"> other 4 </li>
+                  <li className="list-items">  Age - 22 </li>
+                  <li className="list-items"> Location - Bilaspur Chhattisgarh</li>
                 </ul>
               </Other>
             )}
@@ -112,6 +105,7 @@ const AboutPart = styled.div`
 
   h1 {
     all: unset;
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 4rem;
   }

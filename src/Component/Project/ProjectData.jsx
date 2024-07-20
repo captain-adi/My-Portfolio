@@ -1,36 +1,36 @@
  export const Data = [
      
      {
-        SiteName:"CatWebsite",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX4rf7hb6Pr8IMesVfWeR2_UO0OJKIlA6V4w&s",
+        SiteName:"Music Player",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs9IIKXklTz2DRCDpYv4OacpdjQGJF2MTxEg&s",
          animation: 'fade-down-right'
      },
      {
         SiteName:"E-commerce",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReauWj7e6CyTa1Kh0uMwMybimR3fJis6gjKg&s",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrDhqNjHRctFh7bDX0mVdvnuMdtMQB3_uUxw&s",
         animation:'fade-down'
      },
      {
-        SiteName:"Ohter",
-        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8f1MBze_QNH_g8EuQTutbbixhvqJcQxxEjQ&s",
+        SiteName:"Weather",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8n7r143M_t1E3SXJc0cV-zEjNJ1PLqf4ggA&s",
         animation:'fade-down-left'
 
      },
 {
-    SiteName:"GitHub",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0mvaK_651XVg6trHdq_hHiz2T5G79E22tpA&s",
+    SiteName:"Vertual Notebook",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAgn1a6Z50AEQRstBnhlDMVxy9VVSKZ3i8zQ&s",
     animation:'fade-up-right'
 
 },
 {
-    SiteName:"Not decided",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD0JKk5jrhLylom3gc8ClGlmhc_sdno60OPA&s",
+    SiteName:"Quiz App",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqU5vrVQxCO7Nnb1Ahox2k06nF0kVD0MKjgA&s",
         animation:'fade-up'
 
 },
 {
-    SiteName:"Not Decided",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfdsHDuFCAB6VRkb-GR0O-6FtEOA59gUJfhQ&s",
+    SiteName:"Fitness Tracker",
+    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhIN9MGCiTtZaMyIlQjxm_fTvSTFAjZCfl5A&s",
         animation:'fade-up-left'
 
 }

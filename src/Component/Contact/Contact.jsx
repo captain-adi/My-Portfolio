@@ -16,19 +16,16 @@ function Contact() {
           <LeftSide data-aos="fade-right">
             <h1>Let's talk</h1>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
-              eligendi error et. Ad, et recusandae ex harum minus dicta ipsa
-              doloremque iusto. Dolorum id quasi odit, voluptatibussequi vel
-              quod aliquid.
+            For inquiries or collaborations, feel free to reach out to me. I'm available to discuss any frontend development projects, answer questions, or explore new opportunities. Let's connect and see how we can work together to create exceptional user experiences.
             </p>
             <div className="contact">
               <span>
-                <IoMdMail /> Aditya@mail.com
+                <IoMdMail /> adipandey830@mail.com
               </span>
               <span>
                 {" "}
                 <FaPhoneAlt />
-                75987589
+               9171977959
               </span>
               <span>
                 <MdLocationOn />

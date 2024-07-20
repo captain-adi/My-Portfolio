@@ -45,7 +45,7 @@ const SkillContainer = styled.div`
   width: 80%;
   margin: 0 auto;
   h1 {
-    font-family: "Mali", cursive;
+    text-transform: uppercase;
     text-shadow: 0 0 3px var(--text-color);
   }
   p {

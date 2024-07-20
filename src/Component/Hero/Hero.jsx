@@ -50,9 +50,9 @@ export function Hero() {
               </span>
             </h2>
             <p className="text-sm  mb-9">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus distinctio tempore repellat est delectus quam quia
-              quae, laborum qui vitae a suscipit? Ius{" "}
+              Hii, i am a passionate frontend developer . 
+              A Frontend Developer focuses on creating and optimizing the user-facing aspects of websites, ensuring they are visually appealing and user-friendly.
+             
             </p>
             <a
               // href="Interview.pdf"
