@@ -80,9 +80,10 @@ function Navbar() {
 export default Navbar;
 
 const Nav = styled.nav`
-  width:100%;
+  width:85%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
   align-items: center;
 `
 

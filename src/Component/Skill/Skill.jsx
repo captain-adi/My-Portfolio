@@ -42,7 +42,6 @@ function Skill() {
 
 export default Skill;
 const SkillContainer = styled.div`
-border: 3px solid white;
   width: 80%;
   margin: 0 auto;
   h1 {

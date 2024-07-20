@@ -58,7 +58,6 @@ function Contact() {
 export default Contact;
 
 const ContactContainer = styled.div`
- border: 3px solid white;
   font-weight: 100;
   height: 100%;
   display: flex;

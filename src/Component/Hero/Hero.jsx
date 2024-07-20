@@ -82,7 +82,6 @@ export function Hero() {
 // export default Hero;
 
 const HeroContainer = styled.div`
-border: 1px solid white;
 width: 100vw;
   @media screen and (max-width: 900px) {
     height: 80vh;
