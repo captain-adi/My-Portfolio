@@ -27,6 +27,7 @@ const Topcontainer = styled.div`
   flex-direction: column;
   gap: 150px;
   padding-bottom: 200px;
+  overflow-x: hidden;
 
   @media screen and (max-width: 900px) {
     gap: 6rem;

@@ -18,3 +18,6 @@ body{
     padding:0px;
     background-color: var(--bg-color);
 }
+.delete_extra_space{
+    overflow-x: hidden;
+}

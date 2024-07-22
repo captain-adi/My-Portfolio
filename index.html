@@ -7,6 +7,7 @@
     <!-- AOS Link -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
+    
     <title>My Portfolio</title>
   </head>
   <body>
@@ -19,6 +20,11 @@
       AOS.init({
         duration: 1000,delay: 3,offset: 190,
       });
+    </script>
+
+    <script type="text/javascript">
+      $('[data-aos]').parent().addClass('delete_extra_space');
+      $('[data-aos]').addClass('delete_extra_space');
     </script>
   </body>
 </html>
