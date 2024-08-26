@@ -6,6 +6,10 @@ import Project from "./Component/Project/Project";
 import About from "./Component/About/About";
 import Skill from "./Component/Skill/Skill";
 import styled from "styled-components";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // also use <link> for styles
+
+AOS.init();
 function App() {
   return (
     <>

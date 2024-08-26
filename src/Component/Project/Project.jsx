@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Data } from "./ProjectData";
 import React from "react";
-
 function Project() {
   return (
     <>
