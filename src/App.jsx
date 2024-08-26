@@ -6,16 +6,10 @@ import Project from "./Component/Project/Project";
 import About from "./Component/About/About";
 import Skill from "./Component/Skill/Skill";
 import styled from "styled-components";
-import  { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1200, // duration of the animation in milliseconds
-    });
-  }, []);
+
   return (
     <>
       <Topcontainer>
